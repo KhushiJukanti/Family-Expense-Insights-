@@ -1,4 +1,3 @@
-// const Family = require('../models/family');
 exports.savingsOptimization = (req, res) => {
     const { familyIncome, savings, monthlyExpenses, dependents } = req.body;
 
