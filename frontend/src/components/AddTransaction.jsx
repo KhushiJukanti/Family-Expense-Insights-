@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { addTransaction } from './ApiService';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const AddTransactionForm = () => {
+const AddTransaction = () => {
   const [formData, setFormData] = useState({familyId:'', memberId: '', category: '', amount: '', transactionDate: '' });
 
   const handleChange = (e) => {
@@ -49,4 +49,4 @@ const AddTransactionForm = () => {
   );
 };
 
-export default AddTransactionForm;
+export default AddTransaction;
