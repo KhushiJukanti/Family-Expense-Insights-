@@ -4,7 +4,7 @@ import React from 'react';
 import './App.css'
 
 // import AddTransaction from './Components/AddTransaction';
-import Dash from './Components/Dashboard';
+// import Dash from './Components/Dashboard';
 
 function App() {
   const familyId = 'FAM001'; // This can be dynamically set
@@ -12,7 +12,7 @@ function App() {
   return (
     <div className='Bg-img'>
       <div>
-        <Dash familyId={familyId}/>
+        {/* <Dash familyId={familyId}/> */}
         {/* <DashBoard familyId={familyId}/> */}
         
         {/* <AddTransaction/> */}
