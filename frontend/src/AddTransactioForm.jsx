@@ -1,7 +1,7 @@
 // src/components/AddTransactionForm.js
 
 import React, { useState } from 'react';
-import { addTransaction } from './Components/ApiService';
+import { addTransaction } from './ApiService';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const AddTransactionForm = () => {
