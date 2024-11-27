@@ -11,7 +11,7 @@ function App() {
   return (
     <div className='Bg-img'>
       <div>
-        <Dashboard familyId={familyId} />
+        <Dashboard familyId={familyId}/>
         <AddTransactionForm />
       </div>
 
