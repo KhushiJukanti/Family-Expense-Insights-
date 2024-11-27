@@ -1,7 +1,7 @@
 // src/components/Dashboard.js
 
 import React, { useState, useEffect } from 'react';
-import { getFamilyAnalysis, getSavingsOptimization } from './ApiService';
+import { getFamilyAnalysis, getSavingsOptimization } from './Components/ApiService';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const DashBoard = ({ familyId }) => {
