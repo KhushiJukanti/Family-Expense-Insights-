@@ -3,8 +3,8 @@
 import React from 'react';
 import './App.css'
 
-import Dashboard from './Components/Dashboard';
 import AddTransaction from './Components/AddTransaction';
+import Dash from './Components/Dashboard';
 
 function App() {
   const familyId = 'FAM001'; // This can be dynamically set
@@ -12,7 +12,7 @@ function App() {
   return (
     <div className='Bg-img'>
       <div>
-        <Dashboard familyId={familyId}/>
+        <Dash familyId={familyId}/>
         {/* <DashBoard familyId={familyId}/> */}
         
         <AddTransaction/>
