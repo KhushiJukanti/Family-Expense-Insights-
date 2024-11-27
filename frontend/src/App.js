@@ -1,10 +1,11 @@
-// src/App.js
 
 import React from 'react';
 import './App.css'
+import AddTransactionForm from './Components/AddTransactioForm';
+import DashBoard from './Components/Dashboard';
 
-import AddTransaction from './Components/AddTransaction';
-import Dash from './Components/Dashboard';
+
+
 
 function App() {
   const familyId = 'FAM001'; // This can be dynamically set
@@ -12,9 +13,9 @@ function App() {
   return (
     <div className='Bg-img'>
       <div>
-        <Dash familyId={familyId}/>
+        <DashBoard familyId={familyId}/>
+        <AddTransactionForm/>
         
-        <AddTransaction/>
       </div>
 
     </div>
