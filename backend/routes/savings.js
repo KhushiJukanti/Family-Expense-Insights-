@@ -1,9 +1,10 @@
-// routes/savingsRoutes.js
+
+
 const express = require('express');
 const router = express.Router();
-const { savingsOptimization } = require('../controllers/savingsController');
+const { savingsOptimization } = require('../controllers/savingcontrollers');
 
-// Savings Optimization - POST
+// API route to calculate savings optimization
 router.post('/savings-optimization', savingsOptimization);
 
 module.exports = router;
