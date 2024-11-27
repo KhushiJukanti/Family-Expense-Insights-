@@ -2,7 +2,7 @@
 
 import React from 'react';
 import './App.css'
-import AddTransactionForm from './Components/AddTransaction';
+import AddTransactionForm from './Components/AddTransactionForm';
 import DashBoard from './Components/Dashboard';
 
 function App() {
