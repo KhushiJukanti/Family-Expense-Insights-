@@ -2,8 +2,8 @@
 
 import React from 'react';
 import './App.css'
-import AddTransactionForm from './Components/AddTransactionForm';
 import DashBoard from './Components/Dashboard';
+import AddTransactionForm from './Components/AddTransactionForm';
 
 function App() {
   const familyId = 'FAM001'; // This can be dynamically set
@@ -13,7 +13,7 @@ function App() {
       <div>
         <DashBoard familyId={familyId}/>
         
-        <AddTransactionForm />
+        <AddTransactionForm/>
       </div>
 
     </div>
