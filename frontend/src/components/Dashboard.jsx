@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { getFamilyAnalysis, getSavingsOptimization } from './ApiService';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const DashBoard = ({ familyId }) => {
+const Dashboard = ({ familyId }) => {
   const [totalExpenses, setTotalExpenses] = useState(0);
   const [memberContributions, setMemberContributions] = useState([]);
   const [savingsStatus, setSavingsStatus] = useState('');
@@ -48,4 +48,4 @@ const DashBoard = ({ familyId }) => {
   );
 };
 
-export default DashBoard;
+export default Dashboard;
