@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { addTransaction, getTransactionsByFamilyId } = require('../controllers/transactionController');
+const { addTransaction, getTransactionsByFamilyId } = require('../controllers/transactioncontrollers');
 
 router.post('/add-transaction', addTransaction);
 
