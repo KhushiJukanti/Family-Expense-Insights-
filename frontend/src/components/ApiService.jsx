@@ -2,7 +2,7 @@
 
 import axios from 'axios';
 
-const BASE_URL = 'http://localhost:7000'; // Adjust based on your backend server URL
+const BASE_URL = 'https://family-expense-insights.onrender.com'; // Adjust based on your backend server URL
 
 export const getFamilyAnalysis = async (familyId) => {
   return await axios.get(`${BASE_URL}/family-analysis/${familyId}`);
