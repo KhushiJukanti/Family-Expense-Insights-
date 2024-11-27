@@ -3,7 +3,7 @@
 import React from 'react';
 import './App.css'
 
-import AddTransaction from './Components/AddTransaction';
+// import AddTransaction from './Components/AddTransaction';
 import Dash from './Components/Dashboard';
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
         <Dash familyId={familyId}/>
         {/* <DashBoard familyId={familyId}/> */}
         
-        <AddTransaction/>
+        {/* <AddTransaction/> */}
       </div>
 
     </div>
