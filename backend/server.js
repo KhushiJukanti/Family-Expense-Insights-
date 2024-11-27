@@ -73,6 +73,6 @@ app.use('/', familyRoutes, savingsRoutes, transactionRoutes, categoryAnalysisRou
 
 
 
-app.listen(PORT, () => {
-    console.log(`server is running on ${PORT}`)
+app.listen(7000, () => {
+    console.log(`server is running on 7000`)
 })
