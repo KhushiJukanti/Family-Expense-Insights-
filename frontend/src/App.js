@@ -2,8 +2,8 @@
 
 import React from 'react';
 import './App.css'
-import Dashboard from './Components/Dashboard';
 import AddTransactionForm from './Components/AddTransaction';
+import DashBoard from './Components/Dashboard';
 
 function App() {
   const familyId = 'FAM001'; // This can be dynamically set
@@ -11,7 +11,8 @@ function App() {
   return (
     <div className='Bg-img'>
       <div>
-        <Dashboard familyId={familyId}/>
+        <DashBoard familyId={familyId}/>
+        
         <AddTransactionForm />
       </div>
 
